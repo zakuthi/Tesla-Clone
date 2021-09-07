@@ -2,7 +2,7 @@
 
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import CarItem from './componennts/CarItem';
+// import CarItem from './componennts/CarItem';
 import CarsList from './componennts/CarList';
 import Header from './componennts/Header';
 const App = () => {
