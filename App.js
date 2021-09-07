@@ -6,7 +6,11 @@ import CarItem from './componennts/CarItem';
 const App = () => {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <CarItem
+        name={'Model 3'}
+        tagLine={'Starting from $100 000'}
+        image={require('./assets/images/Model3.jpeg')}
+      />
     </View>
   );
 };
